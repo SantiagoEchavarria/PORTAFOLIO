@@ -19,7 +19,7 @@ export function Typewriter({
   const [showCursor, setShowCursor] = useState(true);
 
   useEffect(() => {
-    let timeout: NodeJS.Timeout;
+let timeout: ReturnType<typeof setTimeout>;
 
     if (!isDeleting && index < text.length) {
       // Escribiendo
