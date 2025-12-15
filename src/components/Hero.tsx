@@ -19,7 +19,7 @@ export function Hero() {
         <div className="max-w-4xl mx-auto text-center">
           <div className="mb-6 inline-block">
             <div className="w-32 h-32 rounded-full bg-gradient-to-br from-blue-500 to-purple-600 flex items-center justify-center text-white text-4xl mx-auto">
-              DS
+              SE
             </div>
           </div>
 
