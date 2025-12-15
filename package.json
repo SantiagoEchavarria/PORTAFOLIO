@@ -2,6 +2,7 @@
       "name": "Portafolio de Desarrollador Web",
       "version": "0.1.0",
       "private": true,
+      "homepage": "https://SantiagoEchavarria.github.io/PORTAFOLIO",
       "dependencies": {
             "@emailjs/browser": "^4.4.1",
             "@radix-ui/react-accordion": "^1.2.3",
@@ -56,6 +57,8 @@
       },
       "scripts": {
             "dev": "vite",
-            "build": "vite build"
+            "build": "vite build",
+            "predeploy": "npm run build",
+            "deploy": "gh-pages -d build"
       }
 }
