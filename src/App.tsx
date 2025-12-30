@@ -5,6 +5,7 @@ import { Skills } from "./components/Skills";
 import { Projects } from "./components/Projects";
 import { Contact } from "./components/Contact";
 import { Footer } from "./components/Footer";
+import ChatbotBubble from "./components/Chatbot";
 
 export default function App() {
   return (
@@ -15,6 +16,7 @@ export default function App() {
       <Skills />
       <Projects />
       <Contact />
+      <ChatbotBubble />
       <Footer />
     </div>
   );
