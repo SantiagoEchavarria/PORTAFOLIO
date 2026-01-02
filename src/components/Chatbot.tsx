@@ -150,7 +150,7 @@ export default function ChatbotBubble() {
               borderTopRightRadius: 12,
             }}
           >
-            Chatbot
+            ¿Tienes alguna pregunta sobre mí?
           </div>
 
           <div
